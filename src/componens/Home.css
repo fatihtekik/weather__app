@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap');
+.dataMap{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+    font-weight: 400;
+}
+body{
+    margin: 0 auto;
+}
+.mainLinks{
+    max-width: 1440px;
+    margin: 0 auto;
+    text-align: center;
+}
+.mainLinks a{
+    padding-left: 14px;
+    text-decoration: none;
+    cursor: pointer;
+}
