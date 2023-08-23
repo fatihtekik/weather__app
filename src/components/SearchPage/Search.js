@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import './Home.css';
+import '../Home.css';
 export default function Search(){
     const navigate = useNavigate( )
     const [cityName, setCityName] = useState("");
@@ -71,9 +71,7 @@ if (cityName) {
 
     };
 
-  const InpButton = () => {
-    getWeather();
-  };
+  
     return (
         
         <div>

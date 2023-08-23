@@ -1,4 +1,4 @@
-import './Home.css';
+import '../Home.css';
 export default function ProfilePage(){
   // const lcItems = () =>{
     let lcItems = JSON.parse(localStorage.getItem('history'))

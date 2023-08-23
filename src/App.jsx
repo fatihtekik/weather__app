@@ -1,9 +1,9 @@
-import './componens/Home.css'
+import './components/Home.css'
 import { createRoutesFromElements } from "react-router-dom";
 import { createBrowserRouter,Link, Outlet, Route , RouterProvider} from "react-router-dom"
-import HomePage from "./componens/Home.js";
-import ProfilePage from "./componens/ProfilePage.js";
-import Search from './componens/Search.js'
+import HomePage from "./components/Home/Home.js";
+import ProfilePage from "./components/ProfilePage/ProfilePage.js";
+import Search from './components/SearchPage/Search.js'
 const router = createBrowserRouter(createRoutesFromElements(
   <Route path='/' element={<RootLayout/>}>
     <Route index path=":cityName" element = {<HomePage/>}/>
